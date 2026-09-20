@@ -21,7 +21,7 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov"]
-torch = ["torch>=2.0"]
+torch = ["torch>=2.0", "numpy"]
 
 [project.scripts]
 torch-numpy-stream-shuffle-guard = "torch_numpy_stream_shuffle_guard.cli:main"
