@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "torch-numpy-stream-shuffle-guard"
-version = "0.1.0"
+version = "0.1.1"
 description = "Detect and guard against torch._numpy.random.shuffle corrupting a tensor's row multiset (duplicating/dropping rows) under use_numpy_random_stream=True (pytorch/pytorch#197795)"
 readme = "README.md"
 license = { text = "MIT" }
